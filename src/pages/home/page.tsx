@@ -1,0 +1,27 @@
+import TopBar from "./components/TopBar";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
+import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+export default function Home() {
+  return (
+    <div className="bg-background-50">
+      <TopBar />
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Projects />
+        <Certifications />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+}
